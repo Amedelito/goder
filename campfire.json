@@ -1,0 +1,104 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "minecraft:item/campfire"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 91001
+   },
+   "model": "ytcustom:prop/fogata_grande"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91002
+   },
+   "model": "ytcustom:prop/fogata_mediana"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91003
+   },
+   "model": "ytcustom:prop/fogata_pequena"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91004
+   },
+   "model": "ytcustom:prop/brasero"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91005
+   },
+   "model": "ytcustom:prop/asador"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91006
+   },
+   "model": "ytcustom:prop/pila_lena"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91007
+   },
+   "model": "ytcustom:prop/tocon"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91008
+   },
+   "model": "ytcustom:prop/pila_huesos"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91009
+   },
+   "model": "ytcustom:prop/farol_poste"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91010
+   },
+   "model": "ytcustom:prop/banco"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91101
+   },
+   "model": "ytcustom:prop/fogata_grande_alma"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91102
+   },
+   "model": "ytcustom:prop/fogata_mediana_alma"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91103
+   },
+   "model": "ytcustom:prop/fogata_pequena_alma"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91104
+   },
+   "model": "ytcustom:prop/brasero_alma"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91105
+   },
+   "model": "ytcustom:prop/asador_alma"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 91106
+   },
+   "model": "ytcustom:prop/farol_poste_alma"
+  }
+ ]
+}

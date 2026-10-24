@@ -1,0 +1,17 @@
+# YTProps - configuración
+placement:
+  require-support: true      # el suelo bajo toda la huella debe ser sólido
+break:
+  require-sneak: true        # hay que ir agachado para romper con clic izquierdo
+  give-item-back: true       # devuelve el item (no en creativo)
+effects:
+  particles: true
+  sounds: true
+  active-radius: 40.0        # solo se animan props con jugadores a esta distancia
+damage:
+  enabled: true              # las fogatas queman a quien se queda dentro
+  fire: 1.0
+  soul: 2.0
+  set-on-fire: true
+messages:
+  prefix: "&6[Props] &7"

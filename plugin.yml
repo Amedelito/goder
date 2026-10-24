@@ -1,0 +1,20 @@
+name: YTProps
+version: '${version}'
+main: com.ytprops.YTPropsPlugin
+api-version: '1.21'
+description: Props decorativos 3D (fogatas 3x3 y 2x2, braseros, farolas...) con item_display.
+commands:
+  ytprops:
+    description: Gestiona los props decorativos
+    usage: /ytprops <give|place|list|remove|clear|reload>
+    aliases: [props]
+permissions:
+  ytprops.admin:
+    description: Comandos de administración de YTProps
+    default: op
+  ytprops.place:
+    description: Colocar props con el item
+    default: true
+  ytprops.break:
+    description: Romper props (agachado + clic izquierdo)
+    default: true
